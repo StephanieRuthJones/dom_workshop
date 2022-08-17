@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM has been fully loaded')
     console.table(animals)
-    const header = document.getElementById('head')
-    header.style.color = "blue"
+    const navbar = document.getSelector('#navigation')
+    navbar.style.color = "blue"
 
     const cardsContainer = document.querySelector('.cards-container')
     
@@ -38,6 +38,5 @@ document.addEventListener('DOMContentLoaded', () => {
         animalCard.appendChild(cardBody)
 
     })
-    const allAnimalCards = document.querySelectorAll('.card')
-    console.log('allAnimalCards', allAnimalCards)
+
 })

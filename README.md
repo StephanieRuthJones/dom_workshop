@@ -10,7 +10,7 @@ To complete this assignment, you will use the array of animal objects and DOM ma
 
 0. Start app
 1. Open dev console to view `animal` data
-2. Select the `header` by `id` and change the color of the `header` text to red
+2. Change the text of all the links in the nav to red
 3. Select the **cards container** `div` by its `class`
 4. Iterate over the array of animal data
 5. For each animal, use DOM manipulation to create a card that meets the following requirements:
