@@ -14,9 +14,9 @@ To complete this assignment, you will use the array of animal objects and DOM ma
 3. Select the card container div by its class
 4. Iterate over the array of animal objects
 5. For each animal, use DOM manipulation to create a card that meets the following requirements:
-[] Card has a class of `card`
-[] Card has an image element with attributes, including a *class* of `card-img-top`, `src` of the *animal's image url*, and an `alt` of *animal image*
-[] 
+-[] Card has a class of `card`
+-[] Card has an image element with attributes, including a *class* of `card-img-top`, `src` of the *animal's image url*, and an `alt` of *animal image*
+-[] 
 
 
 
