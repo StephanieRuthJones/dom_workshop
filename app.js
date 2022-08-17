@@ -1,87 +1,43 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM has been fully loaded')
     console.table(animals)
+    const header = document.getElementById('head')
+    header.style.color = "blue"
 
-    //select header by id
-
-    //change color of header text
-
-    //select card container div by class
-
-    //map through the animal data
+    const cardsContainer = document.querySelector('.cards-container')
+    
+    const createAnimalCard = () => {
+        const animalCard = document.createElement('div')
+        animalCard.className = "card"
+        animalCard.style.width = "18rem"
+        return animalCard
+    }
+    const createAnimalImg = animal => {
+        const animalImage = document.createElement('img')
+        animalImage.className = "card-img-top"
+        animalImage.src = animal.image
+        return animalImage
+    }
+    const createCardBody = animal => {
+        const cardBody = document.createElement('div')
+        cardBody.className = "card-body"
+        const animalName = document.createElement('h5')
+        animalName.textContent = animal.name
+        const animalDescription = document.createElement('p')
+        animalDescription.innerText = animal.description
+        cardBody.append(animalName, animalDescription)
+        return cardBody
+    }
     animals.map(animal => {
-        //Create variables to reference each piece of data within the animal object, including: animalName, animalDescription, and animalImage
+        const animalCard = createAnimalCard()
+        const animalImage = createAnimalImg(animal)
+        const cardBody = createCardBody(animal)
 
-        //create <div> element for card
-
-
-
-        //add "card" class to card div
-        //write code on whiteboard
-
-
-        //append "card" div to cardContainer
-
-
-        //create image element
-
-
-        //console.log image
-
-        //add class name attribute to image element
-
-        //console.log image
-
-        //add src to image element
-        //write code on whiteboard
-
-
-        //append image to parent (card div)
-
-        //Check to ensure images rendered w console.log
-
-        //create div with class "card-body"
-
-
-        //give card-body div a class of "card-body"
-
-
-        //append card-body div to card div
-
-
-        //create h5 tag for card title
-
-
-        //add "card-title" class to card title
-
-
-        //add title of animal's name
-
-
-        //append h5 tag to card body div
-
-
-
-        //can stop here unless you would like to keep going
-
-        //create p tag 
-
-        //add "card-text" class to p tag
-
-        //add inner HTML of animal description to p tag
-
-        //append p tag to card-body
-
-        //create a element
-
-
-        //add class of "btn btn-primary"
-
-
-        //add inner HTML of "Go somewhere"
-
-
-        //append button to card-body
+        animalCard.appendChild(animalImage)
+        cardsContainer.appendChild(animalCard)
+        animalCard.appendChild(cardBody)
 
     })
+    const allAnimalCards = document.querySelectorAll('.card')
+    console.log('allAnimalCards', allAnimalCards)
 })
