@@ -10,61 +10,15 @@ To complete this assignment, you will use the array of animal objects and DOM ma
 
 0. Start app
 1. Open dev console to view `animal` data
-2. Select the header by id and change the color of the header text
+2. Select the `header` by `id` and change the color of the `header` text to blue
 3. Select the card container div by its class
 4. Iterate over the array of animal objects
 5. For each animal, use DOM manipulation to create a card that meets the following requirements:
-- [ ] Card has a class of `card`
-- [ ] Card has an image element with attributes, including a *class* of `card-img-top`, `src` of the *animal's image url*, and an `alt` of *animal image*
-- [ ] 
-
-
-
-
-
-        //add "card" class to card div
-        //write code on whiteboard
-
-
-        //append "card" div to cardContainer
-
-
-        //create image element
-
-
-        //console.log image
-
-        //add class name attribute to image element
-
-        //console.log image
-
-        //add src to image element
-        //write code on whiteboard
-
-
-        //append image to parent (card div)
-
-        //Check to ensure images rendered w console.log
-
-        //create div with class "card-body"
-
-
-        //give card-body div a class of "card-body"
-
-
-        //append card-body div to card div
-
-
-        //create h5 tag for card title
-
-
-        //add "card-title" class to card title
-
-
-        //add title of animal's name
-
-
-        //append h5 tag to card body div
+- [ ] Card has a `class` of `card`
+- [ ] Card has an **image element** with attributes, including a `class` of `card-img-top`, `src` of the **animal's image url**, and an `alt` of `animal image`
+- [ ] Card has a child `div` with a `class` of `card-body`
+- [ ] In the card's body, there is a **heading element** with a `class` of `card-title` and the animal's name as text
+- [ ] Below the **card title**, there is a **paragraph element** that displays the animal's **description**
 
 
 
