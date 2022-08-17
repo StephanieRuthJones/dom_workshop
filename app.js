@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //select card container div by class
 
-    //map through the data
+    //map through the animal data
     animals.map(animal => {
-        //create animalName, animalDescription, and animalImage variables to reference each piece of data
+        //Create variables to reference each piece of data within the animal object, including: animalName, animalDescription, and animalImage
 
         //create <div> element for card
 
