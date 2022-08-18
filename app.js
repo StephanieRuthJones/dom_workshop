@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM has been fully loaded')
     console.table(animals)
-    const navbar = document.getSelector('#navigation')
+    const navbar = document.querySelector('#navigation')
     navbar.style.color = "blue"
 
     const cardsContainer = document.querySelector('.cards-container')
