@@ -5,8 +5,8 @@
 2. Start lite-server with `npm start`
 
 
-## Assignment Instructions
-To complete this assignment, you will use the array of animal objects and DOM manipulation to display a set of animal cards in your browser. 
+## Assessment Instructions
+To complete this assessment, you will use the array of animal objects and DOM manipulation to display a set of animal cards in your browser. 
 
 - [ ] Start app
 - [ ] Open dev console to view `animal` data
